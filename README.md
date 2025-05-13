@@ -16,7 +16,7 @@ This repository contains the installer and binary for the Alert Integration Serv
 ### 1. Clone this repository
 
 ```bash
-git clone [https://github.com/<your-org-or-user>/ais-installer.git](https://github.com/dmagalla-te/ais-v3-installer.git)
+git clone https://github.com/<your-org-or-user>/ais-installer.git
 cd ais-installer
 ```
 
