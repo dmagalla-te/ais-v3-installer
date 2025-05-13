@@ -16,11 +16,9 @@ This repository contains the installer and binary for the Alert Integration Serv
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/<your-org-or-user>/ais-installer.git
+git clone [https://github.com/<your-org-or-user>/ais-installer.git](https://github.com/dmagalla-te/ais-v3-installer.git)
 cd ais-installer
 ```
-
-> Replace the URL with your actual GitHub repository URL.
 
 ---
 
@@ -63,7 +61,7 @@ If you want the service to run in the background and restart automatically:
 sudo cp /your/installation/path/alert-integration-service.service /etc/systemd/system/
 ```
 
-2. Reload systemd and enable the service:
+2. Reload systemd, then enable and start the service:
 
 ```bash
 sudo systemctl daemon-reload
@@ -88,4 +86,4 @@ sudo systemctl status alert-integration-service
 
 ## 🛠 Support
 
-If you run into issues or need help configuring, please contact the engineering team or open an issue in this repository (if allowed).
+If you run into issues or need help configuring, please contact the integrations team.
