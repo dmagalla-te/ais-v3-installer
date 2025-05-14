@@ -75,6 +75,12 @@ sudo systemctl start alert-integration-service
 sudo systemctl status alert-integration-service
 ```
 
+4. Stop the service:
+
+```bash
+sudo systemctl stop alert-integration-service
+```
+
 ---
 
 ## 📝 Notes
