@@ -13,11 +13,17 @@ This repository contains the installer and binary for the Alert Integration Serv
 
 ## 🚀 Installation Instructions
 
-### 1. Clone this repository
+### 1. Clone this repository or download it
 
 ```bash
 git clone https://github.com/dmagalla-te/ais-v3-installer.git
 cd ais-v3-installer
+```
+
+If you downloaded as .zip unzip it on the directory where the AIS will live and then navigate to the resultant folder:
+```bash 
+unzip ais-v3-installer.zip
+cd ais-middleware-folder
 ```
 
 ---
@@ -39,7 +45,7 @@ chmod +x installation_script.sh
 You will be prompted to:
 
 - Choose a directory for installation (leave blank to use the current folder)
-- Select integration types (`alertsapi` or `servicenow`)
+- Select integration types (`alertsapi` or `servicenow` or `splunk`)
 - Enter your ThousandEyes token and account group info
 - Confirm configuration
 
