@@ -6,8 +6,7 @@ This repository contains the installer and binary for the Alert Integration Serv
 
 ## 📦 Contents
 
-- `ais-middleware`: Precompiled binary (for Linux x86_64)
-- `installation_script.sh`: Interactive installer that configures and deploys AIS
+- `ais-middleware.zip`: Includes the precompiled binary (for Linux x86_64) and the `installation_script.sh`  which is an interactive installer that configures and deploys AIS
 
 ---
 
